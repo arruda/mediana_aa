@@ -20,7 +20,7 @@ Aqui vai um possível caso (já que são aleatórios):
      k: 3
      s[i]: 2
      [s_menores],    [s_medianas],   [s_maiores]:
-      [1] , [2] ,   [13, 10, 4]
+     [1],            [2],            [13, 10, 4]
 
 ### iteração: 2
 
@@ -28,7 +28,7 @@ Aqui vai um possível caso (já que são aleatórios):
      k: 1
      s[i]: 10
      [s_menores],    [s_medianas],   [s_maiores]:
-      [4] , [10] ,  [13]
+     [4],            [10],           [13]
 
 ### iteração: 3
 
@@ -36,7 +36,7 @@ Aqui vai um possível caso (já que são aleatórios):
      k: 1
      s[i]: 4
      [s_menores],    [s_medianas],   [s_maiores]:
-      [] ,  [4] ,   []
+     [],             [4],            []
 
 
 
