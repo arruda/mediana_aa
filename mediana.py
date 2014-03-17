@@ -15,14 +15,11 @@ def select_mediana(s, k):
     #: arruma os sub conjuntos
     for j in xrange(0, n_s):
         if s[j] > s[i]:
-            # verificar isso!
             s_maiores.append(s[j])
 
         elif s[j] < s[i]:
-            # verificar isso!
             s_menores.append(s[j])
         else:
-            # verificar isso!
             s_medianas.append(s[j])
 
     n_s_medianas = len(s_medianas)
