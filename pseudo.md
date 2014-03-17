@@ -4,7 +4,7 @@ Algoritmo:
         S+ = {};
         Sm = {};
         S− = {};
-        i <-random(j+1,n)
+        i <-random(1,n)
 
         for j=1 to n do
             if sj > si then
