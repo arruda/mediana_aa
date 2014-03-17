@@ -11,7 +11,6 @@ def select_mediana(s, k):
 
     #: rand alguma posicao valida, que nao seja a primeira
     i = random.randint(0, n_s-1)
-    # import pdb; pdb.set_trace()
 
     #: arruma os sub conjuntos
     for j in xrange(0, n_s):
@@ -26,12 +25,10 @@ def select_mediana(s, k):
             # verificar isso!
             s_medianas.append(s[j])
 
-    # import pdb; pdb.set_trace()
-    #: faz as selecoes nos subconjuntos
-
     n_s_medianas = len(s_medianas)
     n_s_menores = len(s_menores)
 
+    #: faz as selecoes nos subconjuntos
     if k <= n_s_menores:
         #: nesse caso k é maior ou iqual ao numero de elementos
         #: no subconjuntos dos menores elementos
